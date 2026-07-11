@@ -420,9 +420,9 @@ nav.nav-open {
     "d c";
   gap: 16px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   width: 100%;
-  height: 500px;
+  height: 600px;
 }
 
 .restauracja-left-side .img1 {
@@ -740,7 +740,7 @@ nav.nav-open {
 
 .tile-info .bold {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .social-media {
@@ -826,7 +826,7 @@ footer {
 
 .footer-bottom {
   margin-top: 128px;
-  padding-block: 16px;
+  padding-block: 24px;
   text-align: center;
   border-top: 1px solid rgb(135, 135, 135);
   color: #686868ca;
