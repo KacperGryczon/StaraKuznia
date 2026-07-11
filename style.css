@@ -40,7 +40,7 @@ header.header-scrolled {
 }
 
 .logo-text h3 {
-  color: #ca8f10;
+  color: #ed9b40;
   font-size: 1.7rem;
   font-weight: 300;
 }
@@ -66,15 +66,15 @@ header.header-scrolled {
 }
 
 .nav-item a:hover {
-  color: #ca8f10;
+  color: #ed9b40;
 }
 
 .nav-item a:active {
-  color: #de9f18;
+  color: #fdc54c;
 }
 
 .nav-item a.active {
-  color: #ca8f10;
+  color: #ed9b40;
 }
 
 .hamburger {
@@ -136,7 +136,7 @@ nav.nav-open {
 
 .hero-content h3 {
   margin-bottom: 32px;
-  color: #ca8f10;
+  color: #ed9b40;
   font-size: 1rem;
 }
 
@@ -146,7 +146,7 @@ nav.nav-open {
 
 .header-title-colour {
   font-size: 4.5rem;
-  color: #ca8f10;
+  color: #ed9b40;
 }
 
 .hero-content h2 {
@@ -219,7 +219,7 @@ nav.nav-open {
 
 .reference-button {
   margin-top: 64px;
-  color: #ca8f10;
+  color: #e07800;
   font-size: 1.2rem;
   transition: all 0.2s;
 }
@@ -255,7 +255,7 @@ nav.nav-open {
 
 .info-cards .card p {
   margin: 0;
-  color: #d8b647;
+  color: #e07800;
 }
 
 .oNas-right-side img {
@@ -274,7 +274,7 @@ nav.nav-open {
 
 #hotel {
   padding: 64px 5%;
-  background-color: #d8b64718;
+  background-color: #f0f2ef;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -283,7 +283,7 @@ nav.nav-open {
 
 .section-h3 {
   margin-bottom: 16px;
-  color: #ca8f10;
+  color: #e07800;
 }
 
 .section-h2 {
@@ -325,7 +325,7 @@ nav.nav-open {
 }
 
 .hotel-cards .card .nazwa-cena p {
-  color: #ca8f10;
+  color: #e07800;
 }
 
 .img-container {
@@ -353,7 +353,7 @@ nav.nav-open {
 .card ul {
   text-align: start;
   list-style-type: disc;
-  color: #ca8f10;
+  color: #e07800;
   padding-left: 20px;
   margin-block: 16px;
 }
@@ -363,7 +363,7 @@ nav.nav-open {
   width: 100%;
   margin-top: auto;
   padding: 8px;
-  border: 1px solid #ca8f10;
+  border: 1px solid #ed9b40;
   background-color: white;
   font-size: 1.1rem;
   font-weight: bold;
@@ -372,11 +372,11 @@ nav.nav-open {
 }
 
 .card button:hover {
-  background-color: #ca8f10;
+  background-color: #ed9b40;
 }
 
 .card button:active {
-  background-color: #ecc74f;
+  background-color: #fdc54c;
 }
 
 #restauracja {
@@ -427,7 +427,7 @@ nav.nav-open {
 
 .half-section-h3 {
   margin-bottom: 16px;
-  color: #ca8f10;
+  color: #e07800;
 }
 
 .half-section-h2 {
@@ -450,7 +450,7 @@ nav.nav-open {
 }
 .restauracja-cards .card {
   display: flex;
-  align-items: center;
+  align-items: start;
   background-color: #bebebd35;
   padding: 16px;
 }
@@ -460,7 +460,7 @@ nav.nav-open {
 }
 
 .restauracja-cards .card i {
-  color: #ca8f10;
+  color: #ed9b40;
   font-size: 1.5rem;
 }
 
@@ -469,7 +469,7 @@ nav.nav-open {
 }
 
 .card-normal-p {
-  color: #ca8f10;
+  color: #e07800;
   margin-top: 8px;
   font-size: 0.9rem;
 }
@@ -487,18 +487,18 @@ nav.nav-open {
   padding-inline: 24px;
   padding-block: 16px;
   border: none;
-  background-color: #ca8f10;
+  background-color: #ed9b40;
   font-weight: bold;
   font-size: 1.1rem;
   cursor: pointer;
 }
 
 .reserve-time button:hover {
-  background-color: #dc9c13;
+  background-color: #ed9c40de;
 }
 
 .reserve-time button:active {
-  background-color: #e8a71a;
+  background-color: #fdc54c;
 }
 
 #przyjecia {
@@ -547,24 +547,24 @@ nav.nav-open {
   padding-inline: 24px;
   padding-block: 16px;
   border: none;
-  background-color: #ca8f10;
+  background-color: #ed9b40;
   font-weight: bold;
   font-size: 1.1rem;
   cursor: pointer;
 }
 
 .przyjecia-button:hover {
-  background-color: #dc9c13;
+  background-color: #ed9c40de;
 }
 
 .przyjecia-button:active {
-  background-color: #e8a71a;
+  background-color: #fdc54c;
 }
 
 #galeria {
   padding: 64px 5%;
   text-align: center;
-  background-color: #d8b64718;
+  background-color: #f0f2ef;
 }
 
 .galery-box {
@@ -643,14 +643,14 @@ nav.nav-open {
   padding-inline: 24px;
   padding-block: 16px;
   border: none;
-  background-color: #fdb822;
+  background-color: #ed9b40;
   font-weight: bold;
   font-size: 1.1rem;
   cursor: pointer;
 }
 
 #galeria button:hover {
-  background-color: #ffc23e;
+  background-color: #ed9c40de;
 }
 
 #galeria button:active {
@@ -681,12 +681,12 @@ nav.nav-open {
   display: flex;
   gap: 16px;
   align-items: start;
-  border: 1px solid #ca8f10;
+  border: 1px solid #ed9b40;
   padding: 8px;
 }
 
 .kontakt-tiles .tile .tile-i {
-  background-color: #ca8f10;
+  background-color: #ed9b40;
   padding: 16px;
   border-radius: 8px;
   display: flex;
@@ -705,7 +705,7 @@ nav.nav-open {
 }
 
 .social-media i {
-  color: #ca8f10;
+  color: #ed9b40;
 }
 
 iframe {
@@ -730,7 +730,7 @@ footer {
 }
 
 .footer-left h2 {
-  color: #ca8f10;
+  color: #ed9b40;
 }
 
 .footer-left-p {
@@ -750,7 +750,7 @@ footer {
 }
 
 .footer-middle ul li a:hover {
-  color: #ca8f10;
+  color: #ed9b40;
 }
 
 .footer-middle ul li a:hover {
