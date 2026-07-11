@@ -665,15 +665,20 @@ nav.nav-open {
 .kontakt-content {
   display: flex;
   justify-content: space-between;
-  gap: 32px;
+  gap: 64px;
   text-align: start;
   margin-top: 64px;
 }
 
+.kontakt-info{
+  width: 100%;
+}
+
 .kontakt-tiles {
   margin-block: 24px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
   gap: 24px;
 }
 
@@ -683,6 +688,7 @@ nav.nav-open {
   align-items: start;
   border: 1px solid #ed9b40;
   padding: 8px;
+  min-width: 200px;
 }
 
 .kontakt-tiles .tile .tile-i {
@@ -739,6 +745,7 @@ footer {
 
 .footer-middle h2 {
   margin-bottom: 48px;
+  color: #ed9b40;
 }
 
 .footer-middle ul li {
@@ -759,6 +766,7 @@ footer {
 
 .footer-right h2 {
   margin-bottom: 32px;
+  color: #ed9b40;
 }
 
 .footer-right a {
@@ -779,6 +787,17 @@ footer {
   text-align: center;
   border-top: 1px solid rgb(135, 135, 135);
   color: #686868ca;
+}
+
+@media (max-width: 1350px) {
+  .kontakt-tiles{
+    display: flex;
+    flex-direction: column;
+  }
+  .kontakt-tiles .tile{
+    width: 100%;
+    min-width: none;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -864,9 +883,6 @@ footer {
   .przyjecia-content{
     width: 65%;
   }
-}
-
-@media (max-width: 700px) {
   .footer-top {
     flex-direction: column;
   }
@@ -876,6 +892,9 @@ footer {
   .footer-left {
     width: 80%;
   }
+}
+
+@media (max-width: 700px) {
   .przyjecia-content{
     width: 75%;
   }
