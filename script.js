@@ -17,13 +17,3 @@ window.addEventListener("scroll", () => {
     headerEl.classList.remove("header-scrolled");
   }
 });
-
-const hotelCardEl = document
-  .querySelector(".hotel-cards")
-  .querySelectorAll(".card");
-
-const hotelImgEl = hotelCardEl.document
-  .querySelector(".img-container")
-  .querySelector("img");
-
-console.log(hotelImgEl);
