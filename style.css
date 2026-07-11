@@ -863,6 +863,9 @@ footer {
     flex-direction: column;
     gap: 32px;
   }
+  .restauracja-right-side {
+    width: 100%;
+  }
   .restauracja-content{
     flex-direction: column-reverse;
   }
@@ -936,6 +939,9 @@ footer {
     display: flex;
     flex-direction: column;
   }
+  .restauracja-left-side{
+    height: 500px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -965,6 +971,9 @@ footer {
   .przyjecia-content{
     width: 100%;
   }
+  .restauracja-left-side{
+    height: 400px;
+  }
   .galery-box {
     grid-template-areas:
       "a"
@@ -984,5 +993,8 @@ footer {
   }
   .header-title-colour {
     font-size: 2rem;
+  }
+  .restauracja-left-side{
+    height: 300px;
   }
 }
