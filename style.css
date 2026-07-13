@@ -417,12 +417,15 @@ nav.nav-open {
     "a b"
     "a c"
     "a c"
-    "d c";
+    "d c"
+    "d c"
+    "d c"
+    ;
   gap: 16px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   width: 100%;
-  height: 600px;
+  height: 700px;
 }
 
 .restauracja-left-side .img1 {
@@ -441,6 +444,13 @@ nav.nav-open {
 
 .restauracja-left-side .img3 {
   grid-area: c;
+  background: url("images/glowna-restauracja4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.restauracja-left-side .img4{
+  grid-area: d;
   background: url("images/glowna-restauracja3.jpg");
   background-position: center;
   background-size: cover;
@@ -808,7 +818,7 @@ footer {
 }
 
 .footer-right h2 {
-  margin-bottom: 32px;
+  margin-bottom: 44px;
   color: #ed9b40;
 }
 
