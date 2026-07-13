@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+ID:wght@100..400&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  background-color: black;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  transition: all 0.5s;
+  z-index: 30;
+  padding: 8px 0;
+}
+
+#hero {
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.355)),
+    url("images/hero-maybe.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.page-hero-content {
+  padding-inline: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-title-white {
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.page-title-small-text {
+  color: #ed9b40;
+  font-size: 2rem;
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.oNas-section {
+  padding: 128px 5% 64px 5%;
+}
+
+.oNas-right-side img {
+  border-radius: 24px;
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
